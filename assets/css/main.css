@@ -3950,3 +3950,70 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+		#contact {
+			padding: 2rem 0;
+		}
+		
+		.contact-container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 2rem;
+		}
+		
+		.inner {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.inner > section {
+			width: 100%;
+			max-width: 48%;
+		}
+		
+		.contact-info {
+			margin-left: auto;
+			max-width: 48%;
+		}
+		
+		.split {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		.contact-method {
+			margin-bottom: 2rem;
+		}
+		
+		form {
+			width: 100%;
+		}
+		
+		.fields {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.field {
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+		
+		.field.half {
+			width: 48%;
+		}
+		
+		@media (max-width: 768px) {
+			.inner > section {
+				max-width: 100%;
+			}
+			.field.half {
+				width: 100%;
+			}
+			.contact-info {
+				margin-left: 0;
+			}
+		}
+		  
